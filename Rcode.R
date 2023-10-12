@@ -1,7 +1,7 @@
 library(dplyr)
 
 # Set the directory where your CSV files are located
-directory_path <- "C:/Users/ASUS/Downloads/ArVr/Ass2"
+directory_path <- "C:/Users/ASUS/Downloads/ArVr/arvr_a2/Datasets"
 
 # List all CSV files in the directory
 csv_files <- list.files(directory_path, pattern = ".csv$", full.names = TRUE)
